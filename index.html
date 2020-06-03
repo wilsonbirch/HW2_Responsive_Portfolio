@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- Define the metadata, give the website a title and link relevant bootstrap css grid link-->
+<header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Wilson Birch, Responsive Portfolio - About me</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets\style.css">
+</header>
+
+<!--Webpage content is written in the body section below-->
+<body>
+
+  <!-- Navbar code taken from bootstrap and included below, role tag used for accessibility-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+
+    <!-- Navbar title is here, can be linked -->
+    <a class="navbar-brand" href="#">Wilson Birch</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- navbar links: about, portfolio and contact are nested within an ordered list-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation">
+      <ul class="navbar-nav ml-auto">
+
+        <!-- The item must be classified as active for each page respectively-->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- container class needed for the main content on the bio page-->
+  <main class="container">
+
+    <!-- The 1st and only row of this page must be established-->
+    <article class="row">
+
+      <!--Main about me card structure begins with this section-->
+      <section class="card" id="index_card">
+        <h5 class="card-header">About Me</h5>
+
+        <!-- card header kept separate from the body text and profile links-->
+        <section class="card-body">
+
+          <!-- image tag for main bio image-->
+          <img src="media/DSC_0461.jpg" id="image_me">
+
+          <!--main bio text is enclosed with a p tag and card text class-->
+          <p class="card-text">Hello! and welcome to my responsive portfolio webpage! My name is Wilson Birch and I am a mechanical engineering grad from Carleton University.
+            I love playing sports, specifically football and hockey and I am excited to be adding to my skills with the Carleton University Coding Bootcamp. This website includes
+            a Portfolio section where my latest work can be found as well as a contact page where you can submit your information with a message and I will be in touch as soon as possible.
+            Thank you for visiting my page and hopefully I will be hearing from you soon! Listed below are links where you can find me on social media:
+          </p>
+      
+          <!--must establish the secondary row of cards for social media links-->
+          <section class="row">
+
+            <!-- each card is put into a column for responsiveness-->
+            <article class="card bg-light" style="width: 12rem;" class="col">
+              <div class="card-body">
+              <h5 class="card-title">Linkedin</h5>
+              <a href="https://www.linkedin.com/in/wilson-birch-188ba396/" class="card-link text-primary">Profile</a>
+              </div>
+            </article>
+
+            <article class="card bg-white" style="width: 12rem;" class = "col">
+              <div class="card-body">
+              <h5 class="card-title">Facebook</h5>
+              <a href="https://www.facebook.com/wilson.birch" class="card-link text-info">Profile</a>
+              </div>
+            </article>
+
+            <article class="card bg-light " style="width: 12rem;" class = "col">
+              <div class="card-body">
+              <h5 class="card-title">Twitter</h5>
+              <a href="https://twitter.com/wilsonbirch" class="card-link text-primary">Profile</a>
+              </div>
+            </article>
+
+            <article class="card bg-white" style="width: 12rem;" class = "col">
+              <div class="card-body">
+              <h5 class="card-title">Instagram</h5>
+              <a href="https://www.instagram.com/wilsonbirch/" class="card-link text-info">Profile</a>
+              </div>
+            </article>
+
+          </section>
+        </section>
+      </section>
+    </article>
+  </main>
+
+  <!-- footer left seperate from the main content for accessibility-->
+  <footer class="footer">
+    <h4>My Responsive Portfolio</h4>
+    <p>
+       wilsonbirch@gmail.com
+    </p>
+  </footer> 
+
+    <!-- Link jQuery first, then Popper.js, then Bootstrap JS for proper responsiveness and some navbar/layout features-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- Set the meta, give the website a title and link relevant bootstrap css grid link-->
+<header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Wilson Birch, Responsive Portfolio - About me</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets\style.css">
+</header>
+
+<!--body tag encloses the content of this page-->
+<body>
+
+  <!--nav classifies the navbar/navigation-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+    <a class="navbar-brand" href="#">Wilson Birch</a>
+
+    <!--navbar button when collapsed bootstrap code is defined-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      
+    <!-- navbar links: about, portfolio and contact are nested within a list-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">About </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+            
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Main webpage content grouped together using a container-->
+  <main class="container">
+
+    <!-- row used to eventually put row in a column-->
+    <article class="row">
+  
+      <!--code for main contact card-->
+      <section class="card" style="width: 25rem;">
+
+        <!--header kept separate from body part of the card-->
+        <h5 class="card-header" >Contact</h5>
+
+        <!--card body section begins here-->
+        <section class="card-body">
+
+          <!--form class is used to have a user input information-->
+          <form>
+
+            <!--form group designates which type of input box will be recalled, this one is for user name-->
+            <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+            </div>
+
+            <!--user ID input form-->
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Email</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your Email">
+            </div>
+
+            <!--user message input-->
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+
+            <!--submit button content-->
+            <a href="contact_submit.html" class="btn btn-dark" role="button">Submit</a>
+          </form>
+        </section>
+      </section>
+    </article>
+  </main>
+
+  <!-- footer left seperate from the main content for accessibility-->
+  <footer class="footer">
+    <h4>My Responsive Portfolio</h4>
+    <p> wilsonbirch@gmail.com</p>
+  </footer> 
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>

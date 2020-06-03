@@ -1,0 +1,51 @@
+body{
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 63px;
+  }
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+
+}
+
+.footer{
+    text-align: center;
+    background-color:  #b3d9ff;
+    border-top: 3px solid #202020;
+    position: fixed;
+    height: 63px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.navbar {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#image_me{
+
+    width: 100%;
+
+}
+
+.card-text{
+
+    margin-top: 10px;
+}
+
+
+
+
