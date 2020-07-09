@@ -8,6 +8,7 @@
   <title>Wilson Birch, Responsive Portfolio - About me</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets\style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </header>
 
 <!--Webpage content is written in the body section below-->
@@ -56,12 +57,13 @@
         <section class="card-body">
 
           <!-- image tag for main bio image-->
-          <img src="media/DSC_0461.jpg" id="image_me">
+          <img src="media/DSC_0461.jpg" id="image_me" >
 
           <!--main bio text is enclosed with a p tag and card text class-->
           <p class="card-text">Hello! and welcome to my responsive portfolio webpage! My name is Wilson Birch and I am a mechanical engineering grad from Carleton University.
             I love playing sports, specifically football and hockey and I am excited to be adding to my skills with the Carleton University Coding Bootcamp. This website includes
             a Portfolio section where my latest work can be found as well as a contact page where you can submit your information with a message and I will be in touch as soon as possible.
+            
             Thank you for visiting my page and hopefully I will be hearing from you soon! Listed below are links where you can find me on social media:
           </p>
       
@@ -72,28 +74,28 @@
             <article class="card bg-light" style="width: 12rem;" class="col">
               <div class="card-body">
               <h5 class="card-title">Linkedin</h5>
-              <a href="https://www.linkedin.com/in/wilson-birch-188ba396/" class="card-link text-primary">Profile</a>
+              <a href="https://www.linkedin.com/in/wilson-birch-188ba396/" target = "_blank" class="card-link text-primary">Profile</a>
               </div>
             </article>
 
             <article class="card bg-white" style="width: 12rem;" class = "col">
               <div class="card-body">
               <h5 class="card-title">Facebook</h5>
-              <a href="https://www.facebook.com/wilson.birch" class="card-link text-info">Profile</a>
-              </div>
-            </article>
-
-            <article class="card bg-light " style="width: 12rem;" class = "col">
-              <div class="card-body">
-              <h5 class="card-title">Twitter</h5>
-              <a href="https://twitter.com/wilsonbirch" class="card-link text-primary">Profile</a>
+              <a href="https://www.facebook.com/wilson.birch" target = "_blank" class="card-link text-info">Profile</a>
               </div>
             </article>
 
             <article class="card bg-white" style="width: 12rem;" class = "col">
               <div class="card-body">
               <h5 class="card-title">Instagram</h5>
-              <a href="https://www.instagram.com/wilsonbirch/" class="card-link text-info">Profile</a>
+              <a href="https://www.instagram.com/wilsonbirch/" target = "_blank" class="card-link text-info">Profile</a>
+              </div>
+            </article>
+
+            <article class="card bg-light " style="width: 12rem;" class = "col">
+              <div class="card-body">
+              <h5 class="card-title">Github</h5>
+              <a href="https://github.com/wilsonbirch" target = "_blank" class="card-link text-primary">Profile</a>
               </div>
             </article>
 
@@ -106,9 +108,11 @@
   <!-- footer left seperate from the main content for accessibility-->
   <footer class="footer">
     <h4>My Responsive Portfolio</h4>
-    <p>
-       wilsonbirch@gmail.com
-    </p>
+   
+    <i class="material-icons" style="font-size:14px">email</i>: wilsonbirch@gmail.com 
+    <i class="material-icons" style="font-size:14px">smartphone</i>: 613-229-4163
+    <i class="material-icons" style="font-size:14px" >description</i>: <a href="media/Wilson_Birch_Resume.pdf" target = "_blank" class="card-link text-primary" id="resume">Resume</a>
+    
   </footer> 
 
     <!-- Link jQuery first, then Popper.js, then Bootstrap JS for proper responsiveness and some navbar/layout features-->
